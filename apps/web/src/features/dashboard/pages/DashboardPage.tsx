@@ -1,5 +1,5 @@
 import { DashboardLayout } from '@/components/layout/DashboardLayout'
-import { AICommandCard } from '@/features/dashboard/components/AICommandCard'
+import { CommandCenter } from '@/features/dashboard/components/CommandCenter'
 import { ActivityTimeline } from '@/features/dashboard/components/ActivityTimeline'
 import { AgentOverview } from '@/features/dashboard/components/AgentOverview'
 import { AnalyticsCharts } from '@/features/dashboard/components/AnalyticsCharts'
@@ -15,7 +15,7 @@ export function DashboardPage() {
 
         <section className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_420px]">
           <ActivityTimeline />
-          <AICommandCard />
+          <CommandCenter />
         </section>
 
         <AnalyticsCharts />
