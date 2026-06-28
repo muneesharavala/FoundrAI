@@ -1,0 +1,5 @@
+[project]
+name = "foundrai-api"
+version = "0.1.0"
+description = "FoundrAI API"
+requires-python = ">=3.11"
